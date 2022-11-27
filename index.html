@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="utf-8" />
+    <meta name="author" content="Ricardo Yegros" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Ricardo Yegros"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, ReactJS, Redux, NodeJS, Express, PostgreSQL, Git"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Titulo-->
+    <title>Ricardo Yegros | Full Stack Web Developer</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--Iconos de Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler-light"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler-light">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imagenes/icono-blanco.svg"
+              width="50"
+              alt="Logo de la página web"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#sobre-mi"
+                ><u>Sobre mí</u></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos"><u>Proyectos</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios"><u>Testimonios</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto"><u>Contacto</u></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="imagenes/imagenes-desarrolladores/My project-1.png"
+          alt="Foto de Ricardo Yegros"
+        />
+        <h1>Hola, soy <span class="nombre"><u>Ricardo Yegros</u></span></h1>
+        <h2>Desarrollo sitios web y divulgo información sobre programación en redes sociales.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">👋 Hola! Mucho Gusto!😄</h2>
+            <p class="seccion-texto">El mundo de la tecnología siempre fué de mi agrado pero durante la pandemia descubrí que el Desarrollo Web es lo que me apasiona ❤️ y a lo que quiero dedicar el resto de mi carrera por lo cual decidí enfocarme al 100% en aprender a programar para poder trabajar de esto lo antes posible.
+                Me considero una persona muy pro-activa, curiosa, sociable, pero sobre todo con muchas ganas de aprender cada vez más de este mundo. 💡 Aquí debajo te dejo las tecnologías con las que trabajo así me conoces un poquito más 👇</p>
+        </div>
+    </section>
+    <!--Experiencia-->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--Desarrollo Front-end-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-palette"></i>
+                    <p class="experiencia-titulo">Front-end</p>
+                    <p>Sin dudas la parte que más me gusta de la programación, aquí te dejo las tecnologías que utilizo en mi dia a día para moverme dentro del front-end y en poco tiempo espero añadir algunas más</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-danger">HTML</span>
+                        <span class="badge text-bg-danger">CSS</span>
+                        <span class="badge text-bg-danger">Bootstrap</span>
+                        <span class="badge text-bg-danger">JavaScript</span>
+                        <span class="badge text-bg-danger">React</span>
+                        <span class="badge text-bg-danger">Redux</span>
+                    </div>
+                </div>
+                <!--Desarrollo Back-end-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-layer-backward"></i>
+                    <p class="experiencia-titulo">Back-end</p>
+                    <p>Qué sería del front sin un back-end que funcione como corresponde, aquí te dejo las tecnologías que utilicé a lo largo del bootcamp del cual egresé y sigo puliendo poco a poco dichas tecnologías.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-danger">NodeJS</span>
+                        <span class="badge text-bg-danger">Express</span>
+                        <span class="badge text-bg-danger">PostgreSQL</span>
+                        <span class="badge text-bg-danger">Sequelize</span>
+                    </div>
+                </div>
+                <!--Herramientas y utilidades-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-tools"></i>
+                    <p class="experiencia-titulo">Herramientas</p>
+                    <p>Trabaja inteligente y en equipo, la mejor manera de trabajar inteligentemente es aprovechando las herramientas que tenemos disponibles. Aquí te dejo mis favoritas</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-danger">Git</span>
+                        <span class="badge text-bg-danger">Github</span>
+                        <span class="badge text-bg-danger">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex">
+        <h2 class="seccion-titulo texto-negro"><u>Mis proyectos recientes</u></h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!--Galeria de Proyectos-->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/techstore.png" alt="TechStore">
+                    <div class="overlay">
+                        <p>Techstore </p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ricardoyegros/PF-Frontend" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                            <a href="https://techstore-ruby.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/Pi food.png" alt="Henry PI Food">
+                    <div class="overlay">
+                        <p>Henry Food</p>
+                        <!-- <div class="iconos-contenedor"> -->
+                            <a href="https://github.com/ricardoyegros/PI-Henry-Food" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                            <!-- <a href="https://github.com/ricardoyegros/PI-Henry-Food" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/netflixclone.png" alt="NetflixHome Clone">
+                    <div class="overlay">
+                        <p>NetflixHome Clone</p>
+                            <a href="https://github.com/ricardoyegros/netflxHomeClone" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                            <a href="https://netflix-clone-d0d36.web.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                  <img src="imagenes/portfolio.png" alt="Portfolio">
+                  <div class="overlay">
+                      <p>Portfolio Ricardo Yegros</p>
+                          <a href="https://www.github.com/ricardoyegros" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <a href="https://www.github.com/ricardoyegros" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">Ver mas proyectos <i class="bi bi-hand-index-thumb"></i></button>
+    </a>
+    </section>
+    <!--Certificaciones-->
+    <section id="certificaciones" class="proyectos-recientes seccion-clara d-flex">
+        <h2 class="seccion-titulo texto-negro"><u>Mis Certificaciones</u></h2>
+        <h3 class="seccion-descripcion">Aquí te dejo las certificaciones con las que cuento actualmente (pero voy por más! 💪📜)</h3>
+    <!--Galeria de Certificados-->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/imagenes-desarrolladores/henry full stack.jpeg" alt="Henry Full Stack Web Developer">
+                    <div class="overlay">
+                        <p>Full Stack Web Developer - Henry</p>
+                            <a href="https://certificates.soyhenry.com/cert?id=bf9a33a6-add0-4840-af08-71456382ea59" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/imagenes-desarrolladores/React Intermedio.jpg" alt="Proyecto 2">
+                    <div class="overlay">
+                        <p>ReactJS - Nivel Intermedio - OpenBootcamp</p>
+                            <a href="https://community.open-bootcamp.com/user/ricardo_yegros/certificaciones/3396e858-2983-41a2-828a-0de74a9b4a4a" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/imagenes-desarrolladores/react basico.jpg" alt="Proyecto 3">
+                    <div class="overlay">
+                        <p>ReactJS - Nivel Básico - OpenBootcamp</p>
+                            <a href="https://community.open-bootcamp.com/user/ricardo_yegros/certificaciones/ef300dd6-7cb7-4eb8-b5e6-066ad243f160" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/imagenes-desarrolladores/efset.jpg" alt="Proyecto 4">
+                    <div class="overlay">
+                        <p>Inglés Nivel B2 Upper Intermediate - EFFSET</p>
+                            <a href="https://www.efset.org/cert/MKj4Aa" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/imagenes-desarrolladores/google activate.jpg" alt="Proyecto 4">
+                    <div class="overlay">
+                        <p>E-Commerce - Google Activate (ID = MDX CQE B4Z)</p>
+                            <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="https://1drv.ms/b/s!Ar03SPROiZU8nX8O7rr5x_FpOyJi" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">Ver mi Curriculum Vitae <i class="bi bi-file-earmark-person"></i></button>
+  </a>
+    </section>
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo"><u>Testimonios</u></h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios sobre mi...</h3>
+    <!--Carrusel-->
+    <div id="testimonios-carrusel" class="carousel carousel-light slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/imagenes-desarrolladores/mauri.jfif" alt="Mauricio Murdoch">
+                <p class="testimonio-text">"Excelente compañero y programador, siempre disponible para brindar ayuda a quien lo necesite. Constantemente innovando con ideas para aplicar y perfeccionándose para ser mejor profesional. Disfruté mucho trabajar con el. Lo recomiendo"</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Mauricio Murdoch</p>
+                    <p class="cargo">Front-end Developer</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/imagenes-desarrolladores/jander.jfif" alt="Jander Gomez Barrueta">
+                <p class="testimonio-text">"Ricardo fué un gran compañero que tuve la suerte de conocer durante un bootcamp de programación y con el cual compartimos grupo para el proyecto final, gran compañero siempre ofreciendose y ayudando al resto del equipo"</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Jander Gomez Barrueta</p>
+                    <p class="cargo">Back-end Developer</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/imagenes-desarrolladores/ignacio.png" alt="Ignacio Orellana">
+                <p class="testimonio-text">"Ricardo es una persona capaz, eficiente, inteligente y solidaria, su aporte fue muy valioso a la hora de trabajar en equipo, siempre dando la mano al otro y solicitando ayuda cuando era justa para no retrasar el proyecto"</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Ignacio Orellana</p>
+                    <p class="cargo">Back-end Developer</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/imagenes-desarrolladores/miqueas.png" alt="Miqueas Ledesma">
+                <p class="testimonio-text">"Ricardo fué y es un excelente compañero, realizamos nuestro proyecto final en el bootcamp de soy Henry, en el cual demostro
+                  tener habilidades de organización, trabajo en equipo , compromiso y liderazgo"</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Miqueas Ledesma</p>
+                    <p class="cargo">Full Stack Developer</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>    
+</section>
+ <!-- Contacto -->
+ <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo2">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para comenzar una conversación y sacarte todas las dudas sobre mi 😎
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:ricardo_yegros@hotmail.com">
+              <button type="button">  
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- Pie de pagina (footer) -->
+   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <a href="#" ><img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio"></a>
+    <p class="footer-texto text-center">Si trabajamos juntos llegaremos mas lejos.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/rickyegros" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/ricardoyegros" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ricardo-yegros-43623a188" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/ricardo_yegros/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:ricardo_yegros@hotmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Ricardo Yegros (2022) &#169;</div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
